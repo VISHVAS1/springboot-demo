@@ -24,7 +24,7 @@ public class TestAppApplication {
 
 	@GetMapping("/demo")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "Greetings from Spring Boot change!";
 	}
 	@GetMapping("/{str}")
 	public String hello(@PathVariable  String str){
